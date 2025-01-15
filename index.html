@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+        body{
+            font-family: "lexend";
+        }
+    </style>
+</head>
+<body>
+    <main class="pb-5" style="background-color: #8b5742; color: #111111">
+        <section class="container" style="max-height: 33%;">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="card col-md-4 text-start d-flex" style="background-color: #111111;color: white;" >
+                    <h1>Sinta o conforto acolhedor de nossas hospedagens</h1>
+                    <p>Hospede-se em nossos hotéis com quartos a partir de R$100</p>
+                    <button class="btn btn-secondary btn-sm w-50 rounded-pill mb-3 " type="submit" style="margin-top: 20%;">Acessar</button>
+                </div>
+                <img src="assets/img-propaganda.jpg" alt="imagem" class="img-fluid col-md-5 d-block">
+            </div>
+        </section>
+        <section class="container text-center">
+            <div class="row">
+                 <h1>Por que se hospedar em nossos hotéis?</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="col-sm-1">
+                        <img src="assets/coffee.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Delicioso café da manhã</h2>
+                        <p>Incluso em todas as diárias</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="col-sm-1">
+                        <img src="assets/location.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>Fácil acesso</h2>
+                        <p>Perto dos principais pontos turísticos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row border border-dark pb-3 text-center" style="background-color: #111111;color: white;">
+                    <h2>Nossos quartos</h2>
+                    <div class="col-sm-4 d-flex flex-column justify-content-center">
+                        <img src="assets/suite-solteiro.jpg" alt="" class="img-fluid d-block mx-auto" height="40%" width="50%">
+                        <span>Suíte solteiro</span>
+                    </div>
+                    <div class="col-sm-4 d-flex flex-column">
+                        <img src="assets/suite-casal.jpg" alt="" class="img-fluid d-block mx-auto" height="40%" width="50%">
+                        <span>Suíte casal</span>
+                    </div>
+                    <div class="col-sm-4 d-flex flex-column">
+                        <img src="assets/suite-premium.jpg" alt="" class="img-fluid d-block mx-auto" height="40%" width="50%">
+                        <p>Suíte premium</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <section class="w-100 border border-dark" style="background-color: #111111;color: white;">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Faça sua reserva</h1>
+                <p>Entre em contato conosco informando as datas desejadas.Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva</p>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <div class="mb-1"> <!--mb cria um espaçamento entre os campos-->
+                        <label for="" class="form-label">Nome</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="" class="form-label">Data de entrada</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="" class="form-label">Observações</label>
+                        <input type="text" class="form-control pb-5">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form class="">
+                    <div class="mb-1">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="" class="form-label">Data de saída</label>
+                        <input type="date" class="form-control">
+                    </div>
+                        <div class="row flex-row">
+                            <div class="col-sm-6 mb-1">
+                                <label for="" class="form-label">Adultos</label>
+                                <input type="number" class="form-control" style="width: 4em;">
+                            </div>
+                            <div class="col-sm-6 mb-1">
+                                <label for="" class="form-label">Crianças</label>
+                                <input type="number" class="form-control" style="width: 4em;">
+                            </div>
+                        </div>
+                    <div class="mb-1">
+                        <button class="btn btn-secondary"> Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
