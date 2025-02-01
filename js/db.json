@@ -1,0 +1,54 @@
+{
+  "clientes": [
+    {
+      "nome": "anderson",
+      "DataEntrada": "22-02-2022",
+      "Observacoes": "o Grémio é gigante",
+      "email": "andersonbtt2205@gmail.com",
+      "DataSaida": "28-02-2022",
+      "ctgAdultos": 2,
+      "ctgCriancas": 1,
+      "id": "0"
+    },
+    {
+      "nome": "gerson",
+      "DataEntrada": "10-09-2001",
+      "Observacoes": "just do it",
+      "email": "gersonbrabo_rk07@gmail.com",
+      "DataSaida": "21-09-2001",
+      "ctgAdultos": 1,
+      "ctgCriancas": 0,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "adriano",
+      "DataEntrada": "1111-02-11",
+      "Observacoes": "ervrvervcev",
+      "email": "swdw@a",
+      "DataSaida": "1324-03-23",
+      "ctgAdultos": "3",
+      "ctgCriancas": "2"
+    },
+    {
+      "id": "3",
+      "nome": "silva",
+      "DataEntrada": "2022-12-20",
+      "Observacoes": "eu sou flamenguista",
+      "email": "silvalegal@gmail.com",
+      "DataSaida": "2022-12-22",
+      "ctgAdultos": "3",
+      "ctgCriancas": "2"
+    },
+    {
+      "id": "0308",
+      "nome": "Lionel Messi",
+      "DataEntrada": "2022-08-19",
+      "Observacoes": "eu sou o campeão da copa do mundo de 2022 ",
+      "email": "lionelcampeao2022@fifa.com",
+      "DataSaida": "2022-09-02",
+      "ctgAdultos": "2",
+      "ctgCriancas": "3"
+    }
+  ]
+}
